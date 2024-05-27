@@ -9,7 +9,7 @@ fi
 # Create a compressed version of the directory
 tar -czvf Kevin_Aihoon.tar.gz Kevin_Aihoon
 
-# Check if the compression was successful
+
 if [ $? -ne 0 ]; then
   echo "Failed to create compressed version of 'Kevin_Aihoon' directory."
   exit 1
