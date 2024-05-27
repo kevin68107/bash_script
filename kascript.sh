@@ -12,7 +12,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-# Create files with different extensions
+
 touch $DIR_NAME/pyramid.txt
 touch $DIR_NAME/report.sh
 touch $DIR_NAME/restartisaac.conf
